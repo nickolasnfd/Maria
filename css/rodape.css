@@ -1,0 +1,29 @@
+.rodape{
+    background-color: var(--cor-cabecalho);
+    height: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.rodape-baixo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rodape-marca{
+    width: 80%;
+}
+.rodape-cima{
+    
+}
+.rodape-logo{
+    border-radius: 0%;
+    width: 60px;
+    height: 60px;
+}
+.formulario{
+    display: flex;
+}

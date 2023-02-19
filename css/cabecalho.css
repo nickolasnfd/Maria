@@ -1,0 +1,80 @@
+:root{
+    --cor-de-fundo:#ffeee2;
+    --cor-cabecalho:#f8e6d7;
+    --fonte-principal:'Quicksand', sans-serif;
+}
+/* Cabeçalho */
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+   padding-top: 10px;  
+   
+}
+.cabecalho-lista{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0;
+    
+}
+/* .cabecalho-menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url("/sandwich-menu-icon.png");
+    display: inline-block;
+} */
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+     color: black; 
+     background-color:var(--cor-de-cabecalho); 
+     
+}
+.cabecalho-imagem{
+    padding: 1em;
+}
+
+.cabecalho-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.icones{
+    width: 30px;
+    
+}
+.aumentar{
+    width: 50px;
+   
+}
+
+.lista-menu{
+    display: none;
+}
+
+/* .cabecalho-botao:checked~ .lista-menu{
+    display: block;
+} */
+.botao{
+    background-color: var(--cor-cabecalho);
+    border: 0;
+    color: black;
+    
+}
+
+.lista{
+    background-color: var(--cor-cabecalho);
+    width: 76vw;
+}
+.botao:hover{
+    background-color: var(--cor-de-cabecalho);
+    color: black;
+}

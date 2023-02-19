@@ -1,0 +1,21 @@
+@import url("/cabecalho.css");
+@import url("/banner.css");
+@import url("/carrossel.css");
+@import url("/card.css");
+@import url("/rodape.css");
+@import url("/secao-produto.css");
+
+:root{
+    --cor-de-fundo:#ffeee2;
+    --cor-cabecalho:#f8e6d7;
+    --fonte-principal:'Quicksand', sans-serif;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
